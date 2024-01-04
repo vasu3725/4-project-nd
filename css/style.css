@@ -2466,7 +2466,7 @@ body{
     z-index: 1;
     bottom: 0;
     left: 0;
-    display: none;
+    /* display: none; */
 }
 
 .creator-card-txt h4
