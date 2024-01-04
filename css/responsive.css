@@ -1,0 +1,207 @@
+
+@media screen and (min-width:1241px) and (max-width:1500px){
+
+}
+
+@media screen and (min-width:1025px) and (max-width:1240px){
+	
+}
+
+@media screen and (min-width:992px) and (max-width:1024px){
+	
+}
+
+@media screen and (min-width:768px) and (max-width:991px){
+	.nav {
+    padding: 1rem;
+}
+    .nav-btn {
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding-top: 0.2rem;
+}
+    .nav-btn label {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    padding: 13px;
+}
+    .nav-btn label span {
+    display: block;
+    width: 25px;
+    height: 10px;
+    border-top: 2px solid #eee;
+}
+    .nav-list {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+    background: #1c043d;
+    height: 0;
+    transition: all 0.3s ease-in;
+    top: 100px;
+    left: 0;
+    overflow: hidden;
+    z-index: 1;
+    text-align: center;
+}
+    .nav .nav-list li {
+    width: 100%;
+    margin-top: 1.5rem;
+}
+    .nav #nav-check:checked ~ .nav-list {
+    height: calc(100vh - 50px);
+}	
+	
+}
+@media (max-width: 767px){
+	.nav {
+    padding: 1rem;
+}
+    .nav-btn {
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding-top: 0.2rem;
+}
+    .nav-btn label {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    padding: 13px;
+}
+    .nav-btn label span {
+    display: block;
+    width: 25px;
+    height: 10px;
+    border-top: 2px solid #eee;
+}
+.nav-list {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+    background: #1c043d;
+    height: 0;
+    transition: all 0.3s ease-in;
+    top: 100px;
+    left: 0;
+    overflow: hidden;
+    z-index: 1;
+    text-align: center;
+}
+    .nav .nav-list li {
+    width: 100%;
+    margin-top: 1.5rem;
+}
+    .nav #nav-check:checked ~ .nav-list {
+    height: calc(100vh - 50px);
+}	
+  
+}
+
+
+
+@media screen and (max-width:575px){
+.nav {
+    padding: 1rem;
+}
+    .nav-btn {
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding-top: 0.2rem;
+}
+    .nav-btn label {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    padding: 13px;
+}
+    .nav-btn label span {
+    display: block;
+    width: 25px;
+    height: 10px;
+    border-top: 2px solid #eee;
+}
+.nav-list {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+    background: #1c043d;
+    height: 0;
+    transition: all 0.3s ease-in;
+    top: 100px;
+    left: 0;
+    overflow: hidden;
+    z-index: 1;
+    text-align: center;
+}
+    .nav .nav-list li {
+    width: 100%;
+    margin-top: 1.5rem;
+}
+    .nav #nav-check:checked ~ .nav-list {
+    height: calc(100vh - 50px);
+}	
+	
+}
+
+
+@media screen and (max-width:480px){
+
+.nav {
+    padding: 1rem;
+}
+    .nav-btn {
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding-top: 0.2rem;
+}
+    .nav-btn label {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    padding: 13px;
+}
+    .nav-btn label span {
+    display: block;
+    width: 25px;
+    height: 10px;
+    border-top: 2px solid #eee;
+}
+.nav-list {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+    background: #1c043d;
+    height: 0;
+    transition: all 0.3s ease-in;
+    top: 100px;
+    left: 0;
+    overflow: hidden;
+    z-index: 1;
+    text-align: center;
+}
+    .nav .nav-list li {
+    width: 100%;
+    margin-top: 1.5rem;
+}
+    .nav #nav-check:checked ~ .nav-list {
+    height: calc(100vh - 50px);
+}	
+    
+}
