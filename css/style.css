@@ -2440,7 +2440,7 @@ body{
     position: relative;
 }
 
-.creator-cart-txt
+.creator-card-txt
 {
     width: 85%;
     background: #fff;
@@ -2452,12 +2452,9 @@ body{
     z-index: 1;
     bottom: 0;
     left: 0;
-
-    display: none;
-
 }
 
-.creator-cart-txt:hover
+.creator-card-txt:hover
 {
     width: 100%;
     background: #fff;
@@ -2469,16 +2466,17 @@ body{
     z-index: 1;
     bottom: 0;
     left: 0;
+    display: none;
 }
 
-.creator-cart-txt h4
+.creator-card-txt h4
 {
     color: #4A1A88;
     font-family: 'poppins-SemiBold';
     margin-bottom: 7px;
 }
 
-.creator-cart-txt h5
+.creator-card-txt h5
 {
     color: #9F9F9F;
     margin-bottom: 10px;
@@ -2516,29 +2514,17 @@ body{
 
 /* ================================================ */
 
-/* .creator-card-hover
+/* .creator-card-txt-hover
 {
     display: none;
+}
+
+.creator-card-txt-hover:hover
+{
+    background: red;
+    display: block;
 } */
 
-.creator-card-hover
-{
-    position: relative;
-}
-
-.creator-cart-txt
-{
-    width: 85%;
-    background: #fff;
-    padding: 30px;
-    border-top-right-radius: 30px;
-    border-bottom-left-radius: 30px;
-
-    position: absolute;
-    z-index: 1;
-    bottom: 0;
-    left: 0;
-}
 
 .creator-name-btn-hover
 {
