@@ -2468,6 +2468,7 @@ body{
     left: 0;
 }
 
+
 .creator-card-txt:hover .creator-card-txt-new
 {
     width: 100%;
@@ -2526,6 +2527,27 @@ body{
     border-radius: 50px;
 }
 
+.creator-image::after
+{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: hsl(265, 88%, 13%, 0.7);
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: 17px;
+    display: none;
+    cursor: pointer;
+}
+
+.creator-image:hover::after
+{
+    display: block;
+}
+
 /* ================================================ */
 
 .creator-card-txt-new
@@ -2565,15 +2587,47 @@ body{
     margin-top: 20px;
 }
 
+.creator-desc p
+{
+    color: #9F9F9F;
+    margin-bottom: 10px;
+    font-size: 13px;
+}
+
 .creator-social-new
 {
     display: flex;
+    background: rgb(227, 206, 255, 0.5);
+    padding: 10px 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    justify-content: space-between;
 }
 
+.social-no-new
+{
+    text-align: left;
+}
 
+.social-no-new img
+{
+    width: 30px;
+}
 
+.social-no-new h4
+{
+    font-size: 20px;
+    margin-top: 4px;
+    margin-bottom: 0px;
+    color: #FF68F9;
+}
 
-
+.social-no-new p
+{
+    color: #000;
+    font-family: 'poppins-SemiBold';
+    font-size: 14px;
+}
 
 
 
