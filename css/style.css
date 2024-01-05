@@ -2630,9 +2630,49 @@ body{
 
 /* ************************************************************************ */
 
+.creator-network
+{
+    color: #fff;
+    margin: 40px 0px;
+}
+
+.creator-network h6
+{
+    color: #FF68F9;
+    margin-bottom: 20px;
+}
+
+.creator-network h3
+{
+    width: 300px;
+    font-family: 'poppins-SemiBold';
+    margin-bottom: 20px;
+    line-height: 40px;
+}
+
+.creator-network p
+{
+    margin-bottom: 20px;
+}
+
 .network-list-txt
 {
     display: flex;
+    margin-bottom: 10px;
+}
+
+.network-list-txt img
+{
+    width: 57px;
+    height: 57px;
+    margin-right: 15px;
+}
+
+.network-list-txt h6
+{
+    color: #fff;
+    font-size: 13.5px;
+    margin-top: 15px;
 }
 
 
