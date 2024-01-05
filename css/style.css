@@ -2526,7 +2526,7 @@ body{
     border-radius: 50px;
 }
 
-.creator-image::after
+/* .creator-image::after
 {
     position: absolute;
     content: '';
@@ -2545,7 +2545,7 @@ body{
 .creator-image:hover::after
 {
     display: block;
-}
+} */
 
 /* ================================================ */
 
@@ -2628,7 +2628,12 @@ body{
     font-size: 14px;
 }
 
+/* ************************************************************************ */
 
+.network-list-txt
+{
+    display: flex;
+}
 
 
 
