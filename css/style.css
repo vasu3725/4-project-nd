@@ -626,7 +626,7 @@ body{
 }
 
 
-.campaign-content:hover .people-txt-hover {
+.campaign-content:hover .people-txth {
     height: 100%;
     border-radius: 10px;
     text-align: center;
@@ -660,7 +660,7 @@ body{
     border-radius: 10px;
 }
 
-.people-txt-hover {
+.people-txth {
     position: absolute;
     content: '';
     width: 100%;
@@ -2466,7 +2466,21 @@ body{
     z-index: 1;
     bottom: 0;
     left: 0;
-    /* display: none; */
+}
+
+.creator-card-txt:hover .creator-card-txt-new
+{
+    width: 100%;
+    background: #fff;
+    padding: 20px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    left: 0;
+    display: block;
 }
 
 .creator-card-txt h4
@@ -2514,32 +2528,47 @@ body{
 
 /* ================================================ */
 
-/* .creator-card-txt-hover
+.creator-card-txt-new
 {
     display: none;
 }
 
-.creator-card-txt-hover:hover
+.creator-name-btn-new
 {
-    background: red;
-    display: block;
-} */
+    display: flex;
+    justify-content: space-between;
+}
 
+.creator-name-new h4
+{
+    color: #4A1A88;
+    font-size: 21px;
+}
 
-.creator-name-btn-hover
+.creator-name-new h5
+{
+    font-size: 18px;
+}
+
+.creator-btn-new
+{
+    margin-top: 18px;
+}
+
+.creator-btn-new a
+{
+    color: #000;
+    background: #fff;
+    border: 3px solid #5729CE;
+    padding: 10px 15px;
+    border-radius: 50px;
+    margin-top: 20px;
+}
+
+.creator-social-new
 {
     display: flex;
 }
-
-.creator-name-hover h3
-{
-    color: #4A1A88;
-}
-
-
-
-
-
 
 
 
