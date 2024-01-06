@@ -2368,7 +2368,7 @@ body{
     margin-bottom: 20px;
 }
 
-.you-butoons
+.you-butons
 {
     display: flex;
     justify-content: space-between;
@@ -2379,7 +2379,7 @@ body{
     border: 2px solid #290757;
 }
 
-.you-butoons .btn-1
+.you-butons .btn-1
 {
     color: #fff;
     background: #FF68F9;
@@ -2387,7 +2387,7 @@ body{
     border-radius: 50px;
 }
 
-.you-butoons .btn-2
+.you-butons .btn-2
 {
     color: #fff;
     background: #5729CE;
@@ -2395,7 +2395,7 @@ body{
     border-radius: 50px;
 }
 
-.you-butoons .btn-3
+.you-butons .btn-3
 {
     color: #5729CE;
     background: #fff;
@@ -2787,6 +2787,11 @@ body{
 
 /* ====================================================================================================================================================================================== INDIVIDUAL INFLUENCER ======================== */
 
+.influencer-img img
+{
+    margin: 10px 0px;
+}
+
 .influ-tag p
 {
     width: 180px;
@@ -2809,6 +2814,17 @@ body{
     margin: 20px 0px;
 }
 
+.influ-media img
+{
+    margin-bottom: 10px;
+}
+
+.influ-media h5
+{
+    color: #FF68F9;
+    font-family: 'poppins-SemiBold';
+}
+
 .influ-media
 {
     margin-right: 40px;
@@ -2819,14 +2835,53 @@ body{
     width: 40px;
 }
 
+.influ-line
+{
+    display: flex;
+    margin-bottom: 5px;
+}
 
+.influ-line p
+{
+    font-size: 14px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
 
+.influ-cart-price
+{
+    display: flex;
+    background: rgb(0, 0, 0, 0.3);
+    padding: 30px;
+    border-radius: 15px;
+    justify-content: space-around;
+    margin-top: 20px;
+}
 
+.influ-cart
+{
+    display: flex;
+    background: #5729CE;
+    padding: 15px 35px;
+    border-radius: 50px;
+}
 
+.influ-cart img
+{
+    width: 25px;
+    height: 25px;
+}
 
+.influ-cart h6
+{
+    font-size: 15px;
+    margin-top: 5px;
+}
 
-
-
+.influ-price
+{
+    margin-top: 5px;
+}
 
 
 
