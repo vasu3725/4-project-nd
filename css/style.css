@@ -2883,15 +2883,54 @@ body{
     margin-top: 5px;
 }
 
+/* ********************************************************************** */
 
+.follower-bg
+{
+    background: rgb(0, 0, 0, 0.3);
+    padding: 40px 0px;
+}
 
+.follower
+{
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+}
 
+.follow-no h3
+{
+    color: #FF68F9;
+    margin-bottom: 15px;
+    font-family: 'poppins-SemiBold';
+}
+.follow-no h3 span
+{
+    color: #8462DC;
+}
 
+/* ********************************************************************** */
 
+.portfolio-bg
+{
+    background: #4A1A88;
+    padding: 70px 0px;
+}
 
+.portfolio
+{
+    color: #fff;
+}
 
+.portfolio h3
+{
+    font-family: 'poppins-SemiBold';
+}
 
-
+.portfolio p
+{
+    width: 600px;
+}
 
 
 
