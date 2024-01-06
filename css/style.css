@@ -2785,9 +2785,39 @@ body{
     display: flex;
 }
 
+/* ====================================================================================================================================================================================== INDIVIDUAL INFLUENCER ======================== */
 
+.influ-tag p
+{
+    width: 180px;
+    background: #FF68F9;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
 
+.influencer-txt h3
+{
+    font-size: 35px;
+    margin-bottom: 10px;
+}
 
+.influ-social-media
+{
+    display: flex;
+    margin: 20px 0px;
+}
+
+.influ-media
+{
+    margin-right: 40px;
+}
+
+.influ-media img
+{
+    width: 40px;
+}
 
 
 
