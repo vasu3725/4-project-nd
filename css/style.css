@@ -3082,12 +3082,38 @@ body{
     margin: 10px 10px;
 }
 
-/* ====================================================================================================================================================================================== INDIVIDUAL INFLUENCER ======================== */
+/* ====================================================================================================================================================================================== CONTACT ======================== */
 
+.contact-details
+{
+    position: relative;
+}
 
+.contact-dtl-img-model img
+{
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    left: 45px;
+}
 
+.contact-dtl-txt
+{
+    margin: 50px 0px;
+}
 
+.contact-dtl-txt h3
+{
+    color: #fff;
+    font-family: 'poppins-SemiBold';
+    margin-bottom: 20px;
+}
 
+.contact-dtl-txt p
+{
+    color: #fff;
+    margin-bottom: 20px;
+}
 
 
 
