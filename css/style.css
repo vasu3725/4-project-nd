@@ -411,6 +411,8 @@ body{
 
 .brand-bg
 {
+    width: 100%;
+    height: 100%;
     background: #4A1A88;
     padding: 50px 0px;
 }
@@ -1067,7 +1069,7 @@ body{
     width: 50px;
 }
 
-.line1
+.border
 {
     border-bottom: 0.1px solid #493664;
     margin: 30px 0px;
@@ -1248,6 +1250,11 @@ body{
 {
     color: #FF68F9;
     font-family: 'poppins-SemiBold';
+}
+
+.count
+{
+    display: flex;
 }
 
 .clients-txt
@@ -1709,6 +1716,17 @@ body{
 {
     color: #fff;
     background: #5729CE;
+    border: 2px solid #5729CE;
+    padding: 15px 30px;
+    margin-right: 20px;
+    border-radius: 50px;
+}
+
+.buy-btn a:hover
+{
+    color: #fff;
+    background: transparent;
+    border: 2px solid #fff;
     padding: 15px 30px;
     margin-right: 20px;
     border-radius: 50px;
@@ -1723,6 +1741,17 @@ body{
 {
     color: #fff;
     background: #FF68F9;
+    border: 2px solid #FF68F9;
+    padding: 15px 25px;
+    margin-right: 20px;
+    border-radius: 50px;
+}
+
+.cart-btn a:hover
+{
+    color: #fff;
+    background: transparent;
+    border: 2px solid #fff;
     padding: 15px 25px;
     margin-right: 20px;
     border-radius: 50px;
@@ -1748,6 +1777,26 @@ body{
 .videos
 {
     margin: 80px 0px;
+}
+
+.video-banner
+{
+    position: relative;
+}
+
+.video-banner video
+{
+    border-radius: 30px;
+}
+
+.video-thambnail img
+{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
 }
 
 .video-link .video-menu
@@ -1816,13 +1865,21 @@ body{
     border-radius: 10px;
 }
 
-.play-button img
+.video-btn img
+{
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    bottom: 0;
+}
+
+/* .play-button img
 {
     position: absolute;
     z-index: 1;
     top: 40px;
     left: 60px;
-}
+} */
 
 .video-details h4
 {
@@ -1895,7 +1952,18 @@ body{
 
 .video-buy-btn
 {
+    color: #fff;
     background: #551E9E;
+    border: 2px solid #551E9E;
+    padding: 15px 30px;
+    border-radius: 50px;
+}
+
+.video-buy-btn:hover
+{
+    color: #fff;
+    background: transparent;
+    border: 2px solid #fff;
     padding: 15px 30px;
     border-radius: 50px;
 }
@@ -1907,7 +1975,18 @@ body{
 
 .video-cart-btn
 {
+    color: #fff;
     background: #FF68F9;
+    border: 2px solid #FF68F9;
+    padding: 15px 20px;
+    border-radius: 50px;
+}
+
+.video-cart-btn:hover
+{
+    color: #fff;
+    background: transparent;
+    border: 2px solid #fff;
     padding: 15px 20px;
     border-radius: 50px;
 }
@@ -2188,10 +2267,10 @@ body{
     margin-bottom: 20px;
 }
 
-.attention-img
+/* .attention-img
 {
     width: 600px;
-}
+} */
 
 .attention-img img
 {
@@ -2207,7 +2286,7 @@ body{
 
 .attention-txt-img
 {
-    width: 100px;
+    width: 70px;
     height: 80px;
     display: flex;
     align-items: center;
@@ -2938,10 +3017,19 @@ body{
     margin-bottom: 15px;
     font-family: 'poppins-SemiBold';
 }
-.follow-no h3 span
+
+.influ-count b span
 {
+    font-size: 24px;
+    font-family: 'poppins-SemiBold';
     color: #8462DC;
 }
+
+.influ-count
+{
+    display: flex;
+}
+
 
 /* ********************************************************************** */
 

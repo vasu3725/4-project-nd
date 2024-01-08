@@ -189,21 +189,29 @@
                 <div class="col-lg-6">
                     <div class="clients-num row">
                         <div class="col-lg-6">
-                           <h3>14+</h3> 
-                           <p>Years Experience</p>
+                            <div class="count">
+                                <h3 class="num" data-val="14+">00</h3><h3>+</h3>
+                            </div>
+                            <p>Years Experience</p>
                         </div>
                         <div class="col-lg-6">
-                           <h3>878+</h3> 
+                            <div class="count">
+                                <h3 class="num" data-val="878+">00</h3><h3>+</h3>
+                            </div>
                            <p>Project Done</p>
                         </div>
                     </div>
                     <div class="clients-num row">
                         <div class="col-lg-6">
-                           <h3>567+</h3> 
+                            <div class="count">
+                                <h3 class="num" data-val="567+">00</h3><h3>+</h3>
+                            </div>
                            <p>Happy Clients</p>
                         </div>
                         <div class="col-lg-6">
-                           <h3>989+</h3> 
+                            <div class="count">
+                                <h3 class="num" data-val="989+">00</h3><h3>+</h3>
+                            </div>
                            <p>Trusted By Company</p>
                         </div>
                     </div>
@@ -483,5 +491,22 @@
         });
     </script>
     
+    <script>
+        let valueDisplays = document.querySelectorAll(".num");
+        let interval = 800;
+        valueDisplays.forEach((valueDisplay) => {
+        let startValue = 0;
+        let endValue = parseInt(valueDisplay.getAttribute("data-val"));
+        let duration = Math.floor(interval / endValue);
+        let counter = setInterval(function () {
+            startValue += 1;
+            valueDisplay.textContent = startValue;
+            if (startValue == endValue) {
+            clearInterval(counter);
+            }
+        }, duration);
+        });
+    </script>
+
 </body>
 </html>        

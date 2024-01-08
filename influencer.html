@@ -123,19 +123,27 @@
             <div class="container">
                 <div class="follower">
                     <div class="follow-no">
-                        <h3>+ 78<span>M</span></h3>
+                        <div class="influ-count">
+                            <h3>+</h3><h3 class="num" data-val="+78M">00</h3><b><span>M</span></b>
+                        </div>
                         <p>VIDEO VIEWS</p>
                     </div>
                     <div class="follow-no">
-                        <h3>+ 15<span>M</span></h3>
+                        <div class="influ-count">
+                            <h3>+</h3><h3 class="num" data-val="+15M">00</h3><b><span>M</span></b>
+                        </div>
                         <p>FOLLOWERS</p>
                     </div>
                     <div class="follow-no">
-                        <h3>+ 48<span>M</span></h3>
+                        <div class="influ-count">
+                            <h3>+</h3><h3 class="num" data-val="+48M">00</h3><b><span>M</span></b>
+                        </div>
                         <p>Happy Clients</p>
                     </div>
                     <div class="follow-no">
-                        <h3>+ 58<span>M</span></h3>
+                        <div class="influ-count">
+                            <h3>+</h3><h3 class="num" data-val="+58M">00</h3><b><span>M</span></b>
+                        </div>
                         <p>COMMENTS</p>
                     </div>
                 </div>
@@ -270,5 +278,22 @@
         });
     </script>
     
+    <script>
+        let valueDisplays = document.querySelectorAll(".num");
+        let interval = 2000;
+        valueDisplays.forEach((valueDisplay) => {
+        let startValue = 0;
+        let endValue = parseInt(valueDisplay.getAttribute("data-val"));
+        let duration = Math.floor(interval / endValue);
+        let counter = setInterval(function () {
+            startValue += 1;
+            valueDisplay.textContent = startValue;
+            if (startValue == endValue) {
+            clearInterval(counter);
+            }
+        }, duration);
+        });
+    </script>
+
 </body>
 </html>
