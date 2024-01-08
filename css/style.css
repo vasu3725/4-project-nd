@@ -3066,11 +3066,21 @@ body{
     width: 600px;
 }
 
+.influ-slider
+{
+    margin: 50px 0px;
+}
 
+.influ-slider-img
+{
+    display: flex;
+    width: 100%;
+}
 
-
-
-
+.influ-slider-img img
+{
+    margin: 10px 10px;
+}
 
 
 
