@@ -418,17 +418,20 @@ body{
 .brand
 {
     text-align: center;
-    color: #fff;
 }
 
 .brand h3
 {
+    color: #fff;
+    font-size: 30px;
     font-family: 'poppins-SemiBold';
-    margin-bottom: 10px;
+    /* margin-bottom: 10px; */
+    line-height: 50px;
 }
 
 .brand p
 {
+    color: #fff;
     margin-bottom: 20px;
     font-family: 'poppins-Light';
 }
@@ -626,7 +629,7 @@ body{
 }
 
 
-.campaign-content:hover .people-txth {
+.campaign-content:hover .people-txt-hover {
     height: 100%;
     border-radius: 10px;
     text-align: center;
@@ -660,7 +663,7 @@ body{
     border-radius: 10px;
 }
 
-.people-txth {
+.people-txt-hover {
     position: absolute;
     content: '';
     width: 100%;
@@ -2198,6 +2201,7 @@ body{
 .attention-content
 {
     display: flex;
+    /* flex-wrap: wrap; */
     margin-top: 0px;
 }
 
@@ -2226,6 +2230,7 @@ body{
 .attention-txt
 {
     margin-top: 10px;
+    flex-wrap: wrap;
 }
 
 .attention-txt h4
@@ -2383,6 +2388,16 @@ body{
 {
     color: #fff;
     background: #FF68F9;
+    border: 2px solid #FF68F9;
+    padding: 15px 30px;
+    border-radius: 50px;
+}
+
+.you-butons .btn-1:hover
+{
+    color: #fff;
+    background: transparent;
+    border: 2px solid #fff;
     padding: 15px 30px;
     border-radius: 50px;
 }
@@ -2391,6 +2406,16 @@ body{
 {
     color: #fff;
     background: #5729CE;
+    border: 2px solid #5729CE;
+    padding: 15px 30px;
+    border-radius: 50px;
+}
+
+.you-butons .btn-2:hover
+{
+    color: #fff;
+    background: transparent;
+    border: 2px solid #fff;
     padding: 15px 30px;
     border-radius: 50px;
 }
@@ -2399,10 +2424,19 @@ body{
 {
     color: #5729CE;
     background: #fff;
+    border: 2px solid #fff;
     padding: 15px 30px;
     border-radius: 50px;
 }
 
+.you-butons .btn-3:hover
+{
+    color: #fff;
+    background: transparent;
+    border: 2px solid #fff;
+    padding: 15px 30px;
+    border-radius: 50px;
+}
 
 /* ============================================================================================================================================================================================= CREATORS ============================ */
 
