@@ -3087,6 +3087,11 @@ body{
 
 /* ====================================================================================================================================================================================== CONTACT ======================== */
 
+.for-brands
+{
+    margin-bottom: 100px;
+}
+
 .contact-details
 {
     position: relative;
@@ -3102,25 +3107,61 @@ body{
 
 .contact-dtl-txt
 {
-    margin: 50px 0px;
+    margin: 80px 0px;
 }
 
 .contact-dtl-txt h3
 {
     color: #fff;
     font-family: 'poppins-SemiBold';
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .contact-dtl-txt p
 {
     color: #fff;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
+.contact-dtl
+{
+    display: flex;
+    margin-bottom: 40px;
+}
 
+.contact-icon
+{
+    width: 70px;
+    height: 70px;
+    justify-content: center;
+    text-align: center;
+    background: #fff;
+    border-radius: 50px;
+    padding: 15px;
+}
 
+.contact-icon img
+{
+    width: 60px;
+}
 
+.contact-txt
+{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.contact-txt h6
+{
+    color: #5729CE;
+    font-family: 'poppins-SemiBold';
+}
+
+.contact-txt h5
+{
+    color: #fff;
+    font-family: 'poppins-SemiBold';
+}
 
 
 
