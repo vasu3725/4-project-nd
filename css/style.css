@@ -630,18 +630,6 @@ body{
     cursor: pointer;
 }
 
-
-.campaign-content:hover .people-txt-hover {
-    height: 100%;
-    border-radius: 10px;
-    text-align: center;
-    background-color: rgb(74 26 136 / 75%);
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-}
-
 .campaign-content:hover .people-txt {
     height: 100%;
     border-radius: 10px;
@@ -651,12 +639,35 @@ body{
     justify-content: center;
     flex-direction: column;
     align-items: center;
+}
+
+.campaign-content:hover .people-txt p
+{
     display: none;
+}
+
+.campaign-content:hover .people-txt h6
+{
+    display: none;
+}
+
+.campaign-content:hover .people-txt h5 
+{
+    width: 250px;
+    line-height: 25px;
+    margin-bottom: 10px;
+    display: block;
 }
 
 .campaign-part2 .col-lg-4
 {
     margin-top: 25px;
+}
+
+.people-txt h5
+{
+    font-size: 15px;
+    display: none;
 }
 
 .people-img img {
