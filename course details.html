@@ -64,56 +64,60 @@
             <div class="course-video">
                 <h5>Feature</h5>
                 <div class="video-details row">
-                    <div class="col-lg-8">
-                        <h3>LOREM IPSUM IS SIMPLY</h3>
-                        <p>Lorem Ipsum is simply dummy text of printing & typesetting industry.</p>
-                        <div class="video-feature">
-                            <div class="feature-details">
-                                <div class="feature-img">
-                                    <img src="images/p3 feature img 1.png" alt="">
+                    <!-- <div class="col-lg-8"> -->
+                        <div class="video-dtl-part1">
+                            <h3>LOREM IPSUM IS SIMPLY</h3>
+                            <p>Lorem Ipsum is simply dummy text of printing & typesetting industry.</p>
+                            <div class="video-feature">
+                                <div class="feature-details">
+                                    <div class="feature-img">
+                                        <img src="images/p3 feature img 1.png" alt="">
+                                    </div>
+                                    <div class="feature-txt">
+                                        <h4>Course Level</h4>
+                                        <p>Expert Professional</p>
+                                    </div>
                                 </div>
-                                <div class="feature-txt">
-                                    <h4>Course Level</h4>
-                                    <p>Expert Professional</p>
+                                <div class="feature-details">
+                                    <div class="feature-img">
+                                        <img src="images/p3 feature img 1.png" alt="">
+                                    </div>
+                                    <div class="feature-txt">
+                                        <h4>Total Hours</h4>
+                                        <p>08 : 30 m 35sec</p>
+                                    </div>
+                                </div>
+                                <div class="feature-details">
+                                    <div class="feature-img">
+                                        <img src="images/p3 feature img 1.png" alt="">
+                                    </div>
+                                    <div class="feature-txt">
+                                        <h4>Video Tutorial</h4>
+                                        <p>08 Tutorial</p>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="feature-details">
-                                <div class="feature-img">
-                                    <img src="images/p3 feature img 1.png" alt="">
-                                </div>
-                                <div class="feature-txt">
-                                    <h4>Total Hours</h4>
-                                    <p>08 : 30 m 35sec</p>
+                        </div>
+                    <!-- </div> -->
+                    <!-- <div class="col-lg-4"> -->
+                        <div class="video-dtl-part2">
+                            <div class="price-star">
+                                <h3>$204.00</h3>
+                                <div class="star">
+                                    <img src="images/p3 5start.png" alt="">
+                                    <p><u>45 REVIEWS</u></p>
                                 </div>
                             </div>
-                            <div class="feature-details">
-                                <div class="feature-img">
-                                    <img src="images/p3 feature img 1.png" alt="">
+                            <div class="buy-cart">
+                                <div class="buy-btn">
+                                    <a href="#">BUY NOW</a>
                                 </div>
-                                <div class="feature-txt">
-                                    <h4>Video Tutorial</h4>
-                                    <p>08 Tutorial</p>
+                                <div class="cart-btn">
+                                    <a href="#"><img src="images/p3 cart.png" alt="">ADD TO CART</a>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="price-star">
-                            <h3>$204.00</h3>
-                            <div class="star">
-                                <img src="images/p3 5start.png" alt="">
-                                <p><u>45 REVIEWS</u></p>
-                            </div>
-                        </div>
-                        <div class="buy-cart">
-                            <div class="buy-btn">
-                                <a href="#">BUY NOW</a>
-                            </div>
-                            <div class="cart-btn">
-                                <a href="#"><img src="images/p3 cart.png" alt="">ADD TO CART</a>
-                            </div>
-                        </div>
-                    </div>
+                    <!-- </div> -->
                 </div>
             </div>
         </div>
@@ -484,11 +488,21 @@
         <div class="more-course-bg">
             <div class="container">
                 <div class="more-course">
-                    <h3>MORE COURSES FOR YOU</h3>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br> Lorem Ipsum has been the industry's standard dummy text</p>
+                    <div class="more-course-heading">
+                        <div class="more-course-head-txt">
+                            <h3>MORE COURSES FOR YOU</h3>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br> Lorem Ipsum has been the industry's standard dummy text</p>
+                        </div>
+                        <div class="course-arrow">
+                            <div class="course-btn-wrap">
+                                <button class="prev-btn"><i class="fa-solid fa-chevron-left fa-xl"></i></button>
+                                <button class="next-btn"><i class="fa-solid fa-chevron-right fa-xl"></i></button>
+                            </div>
+                        </div>
+                    </div>
 
                     <div class="container">
-                        <div class="slider poeple-slider">
+                        <div class="slider people-slider">
                             <div class="course-main-dtl">
                                 <img src="images/p3 course 4.png" alt="">
                                 <div class="save-btn">
@@ -843,7 +857,7 @@
     <script src="js/wow.min.js"></script>
 
     <script>
-        $('.poeple-slider').slick({
+        $('.people-slider').slick({
             slidesToShow: 4,
             slidesToScroll: 1,
             arrows: true,
@@ -851,6 +865,27 @@
             infinite: true,
             autoplaySpeed: 5000
         });
+        $(".prev-btn").click(function () {
+                $("#slick-slide").slick("slickPrev");
+            });
+
+            $(".next-btn").click(function () {
+                $(".people-slider").slick("slickNext");
+            });
+            
+            $(".prev-btn").addClass("slick-disabled");
+            $(".people-slider").on("afterChange", function () {
+                if ($(".slick-prev").hasClass("slick-disabled")) {
+                    $(".prev-btn").addClass("slick-disabled");
+                } else {
+                    $(".prev-btn").removeClass("slick-disabled");
+                }
+                if ($(".slick-next").hasClass("slick-disabled")) {
+                    $(".next-btn").addClass("slick-disabled");
+                } else {
+                    $(".next-btn").removeClass("slick-disabled");
+                }
+            });
     </script>
     
     <script>

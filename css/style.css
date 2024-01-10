@@ -1470,6 +1470,14 @@ body{
     position: relative;
 }
 
+/* .banner
+{
+    width: 100%;
+    height: 100%;
+    padding: 50px 0px;
+    background-image: url(/images/p3\ banner.png);
+} */
+
 .banner-txt
 {
 
@@ -1518,7 +1526,7 @@ body{
     margin-bottom: 30px;
 }
 
-.courses-card .col-lg-4
+.courses-card .col-lg-4 
 {
     position: relative; 
     width: 100%;
@@ -1698,6 +1706,18 @@ body{
 {
     font-family: 'poppins-SemiBold';
     margin-bottom: 10px;
+}
+
+.video-details
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.video-dtl-part1
+{
+    margin-bottom: 20px;
 }
 
 .video-details p
@@ -2058,8 +2078,43 @@ body{
 {
     font-family: 'poppins-SemiBold';
     margin-bottom: 20px;
+    margin-left: 20px;
 }
 
+.more-course p
+{
+    margin-left: 20px;
+}
+
+.more-course-heading
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.course-btn-wrap button
+{
+    margin: 5px;
+    margin-top: 30px;
+}
+
+.course-btn-wrap .prev-btn
+{
+    color: #fff;
+    background: #8462DC;
+    padding: 15px;
+    border-radius: 50%;
+    border: none;
+}
+
+.course-btn-wrap .next-btn
+{
+    color: #E3CEFF;
+    background: #fff;
+    padding: 15px;
+    border-radius: 50%;
+    border: none;
+}
 
 .course-main-dtl
 {
@@ -3274,6 +3329,12 @@ body{
 {
     color: #fff;
     font-family: 'poppins-SemiBold';
+}
+
+.btn-wrap button
+{
+    margin: 5px;
+    margin-top: 30px;
 }
 
 .btn-wrap .prev-btn
