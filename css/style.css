@@ -1947,6 +1947,11 @@ body{
     left: 60px;
 } */
 
+.video-details
+{
+    margin-left: 20px;
+}
+
 .video-details h4
 {
     font-size: 20px;
@@ -2021,7 +2026,7 @@ body{
     color: #fff;
     background: #551E9E;
     border: 2px solid #551E9E;
-    padding: 15px 30px;
+    padding: 15px 20px;
     border-radius: 50px;
 }
 
@@ -2030,7 +2035,7 @@ body{
     color: #fff;
     background: transparent;
     border: 2px solid #fff;
-    padding: 15px 30px;
+    padding: 15px 20px;
     border-radius: 50px;
 }
 
