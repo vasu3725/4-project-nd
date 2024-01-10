@@ -176,3 +176,141 @@
     
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="influ-slider">
+                        <div class="main-slider">
+                            <!-- <div class="slide">
+                                <div class="row"> -->
+                                    <div class="col-lg-3">
+                                    <div class="slider-images">
+                                        <img src="./images/p6 portfolio img 1.png" alt="">
+                                    </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                    <div class="slider-images">
+                                        <img src="./images/p6 portfolio img 1.png" alt="">
+                                    </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                    <div class="slider-images">
+                                        <img src="./images/p6 portfolio img 1.png" alt="">
+                                    </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                    <div class="slider-images">
+                                        <img src="./images/p6 portfolio img 1.png" alt="">
+                                    </div>
+                                    </div>
+                                <!-- </div>
+                            </div> -->
+                            <!-- <div class="slide">
+                                <div class="row"> -->
+                                <div class="col-lg-3">
+                                    <div class="slider-images">
+                                    <img src="./images/p6 portfolio img 1.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-lg-3">
+                                    <div class="slider-images">
+                                    <img src="./images/p6 portfolio img 1.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-lg-3">
+                                    <div class="slider-images">
+                                    <img src="./images/p6 portfolio img 1.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-lg-3">
+                                    <div class="slider-images">
+                                    <img src="./images/p6 portfolio img 1.png" alt="">
+                                    </div>
+                                </div>
+                                <!-- </div> -->
+                            <!-- </div>
+                        </div> -->
+                        <!-- <div class="main-slider"> -->
+                            <!-- <div class="slide">
+                                <div class="row"> -->
+                                    <div class="col-lg-3">
+                                    <div class="slider-images">
+                                        <img src="./images/p6 portfolio img 1.png" alt="">
+                                    </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                    <div class="slider-images">
+                                        <img src="./images/p6 portfolio img 1.png" alt="">
+                                    </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                    <div class="slider-images">
+                                        <img src="./images/p6 portfolio img 1.png" alt="">
+                                    </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                    <div class="slider-images">
+                                        <img src="./images/p6 portfolio img 1.png" alt="">
+                                    </div>
+                                    </div>
+                                <!-- </div>
+                            </div> -->
+                            <!-- <div class="slide">
+                                <div class="row"> -->
+                                <div class="col-lg-3">
+                                    <div class="slider-images">
+                                    <img src="./images/p6 portfolio img 1.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-lg-3">
+                                    <div class="slider-images">
+                                    <img src="./images/p6 portfolio img 1.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-lg-3">
+                                    <div class="slider-images">
+                                    <img src="./images/p6 portfolio img 1.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-lg-3">
+                                    <div class="slider-images">
+                                    <img src="./images/p6 portfolio img 1.png" alt="">
+                                    </div>
+                                </div>
+                                <!-- </div> -->
+                            <!-- </div> -->
+                        </div>
+                    </div>

@@ -3048,6 +3048,7 @@ body{
 {
     background: rgb(0, 0, 0, 0.3);
     padding: 40px 0px;
+    margin-bottom: 50px;
 }
 
 .follower
@@ -3062,11 +3063,12 @@ body{
     color: #FF68F9;
     margin-bottom: 15px;
     font-family: 'poppins-SemiBold';
+    font-size: 55px;
 }
 
-.influ-count b span
+.influ-count h2
 {
-    font-size: 24px;
+    font-size: 55px;
     font-family: 'poppins-SemiBold';
     color: #8462DC;
 }
@@ -3083,6 +3085,7 @@ body{
 {
     background: #4A1A88;
     padding: 70px 0px;
+    border-radius: 80px;
 }
 
 .portfolio
@@ -3090,14 +3093,16 @@ body{
     color: #fff;
 }
 
-.portfolio h3
+.portfolio-txt h3
 {
     font-family: 'poppins-SemiBold';
+    margin-bottom: 20px;
 }
 
-.portfolio p
+.portfolio-txt p
 {
     width: 600px;
+    margin-bottom: 50px;
 }
 
 .influ-slider
@@ -3116,6 +3121,33 @@ body{
     width: 100%;
     object-fit: contain;
     margin: 10px 10px;
+}
+
+.influ-slider .slick-track
+{
+    width: 100% !important;
+}
+
+.influ-slider .slick-slide
+{
+    width: 100% !important;
+}
+
+.influ-slider {
+	width: 100%;
+}
+.slide-item {
+	display: flex !important;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+.slide-item img
+{
+	width: 95%;	
 }
 
 
@@ -3181,6 +3213,12 @@ body{
     width: 60px;
 }
 
+.portfolio-head
+{
+    display: flex;
+    justify-content: space-between;
+}
+
 .contact-icon-other
 {
     width: 70px;
@@ -3224,6 +3262,24 @@ body{
 {
     color: #fff;
     font-family: 'poppins-SemiBold';
+}
+
+.btn-wrap .prev-btn
+{
+    color: #fff;
+    background: #8462DC;
+    padding: 15px;
+    border-radius: 50%;
+    border: none;
+}
+
+.btn-wrap .next-btn
+{
+    color: #E3CEFF;
+    background: #fff;
+    padding: 15px;
+    border-radius: 50%;
+    border: none;
 }
 
 /* ************************************************************************ */
