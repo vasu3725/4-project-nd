@@ -42,11 +42,11 @@
                 </div>
 
                 <ul class="nav-list">
-                    <li><a href="index.html">HOME</a></li>
-                    <li><a href="about.html">ABOUT US</a></li>
-                    <li><a href="brands.html">BRNADS</a></li>
-                    <li><a href="#">CREATORS</a></li>
-                    <li><a href="courses.html">COURSES</a></li>
+                    <li><a href="index.html" class="video-menu active">HOME</a></li>
+                    <li><a href="about.html" class="video-menu">ABOUT US</a></li>
+                    <li><a href="brands.html" class="video-menu">BRNADS</a></li>
+                    <li><a href="courses.html" class="video-menu">COURSES</a></li>
+                    <li><a href="contact.html" class="video-menu">CONTACT</a></li>
 
                     <div class="cart">
                         <!-- <i class="fa-solid fa-cart-plus"></i> -->
@@ -484,6 +484,20 @@
             centerPadding: "0"
         });
     </script>
+
+<script>
+    const tabs=document.querySelectorAll('.video-menu');
+    const allctn=document.querySelectorAll('.video-cnt');
+
+    tabs.forEach((tab,index)=>{
+    tab.addEventListener('click',()=>{
+        tabs.forEach(tab=>{tab.classList.remove('active')})
+        tab.classList.add('active')
+        allctn.forEach(content=>{content.classList.remove('active')})
+        allctn[index].classList.add('active');
+    })
+    })
+  </script>
     
 </body>
 </html>
