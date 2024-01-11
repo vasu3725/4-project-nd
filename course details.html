@@ -21,6 +21,13 @@
         href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.css" />
     <link rel="stylesheet" type="text/css"
         href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick-theme.min.css" />
+
+        <script src= 
+    "https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity= 
+"sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" 
+        crossorigin="anonymous"> 
+    </script> 
 </head>
 
 <body>
@@ -124,12 +131,17 @@
 
         <div class="container">
             <div class="video-banner">
-                <video src="images/movie.mp4" width="100%" height="100%" onclick="this.play();" controls></video>
+                <!-- <video src="images/movie.mp4" width="100%" height="100%" onclick="this.play();" controls></video>
                 <div class="video-thambnail">
                     <img src="images/p3 video banner.png" alt="">
+                </div> -->
+                <div id="video_player">
+                    <a href="javascript:void(0)" onclick="play(player)">
+                        <img src="images/p3 video banner.png" alt="">
+                    </a>
                 </div>
+                <button id="hide">hide image</button>
             </div>
-            
         </div>
 
         <div class="container">
@@ -969,5 +981,26 @@
     })
     })
   </script>
+
+<script>
+    function play(id) {
+        let html=''
+    }
+</script>
+
+
+<script>
+    $(document).ready(function () { 
+        $("#image").hide(); 
+        $("#hide").attr('disabled', true); 
+        $("#hide").click(function () { 
+            $("#image").hide(); 
+            $("#hide").attr('disabled', false); 
+            $("#show").attr('disabled', false); 
+  
+        }); 
+    }); 
+</script>
+
 </body>
 </html>
