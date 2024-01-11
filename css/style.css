@@ -3424,6 +3424,7 @@ body{
     border: 3px solid #290757;
     border-radius: 30px;
     padding: 25px 50px;
+    resize: none;
     
     position: relative;
 }
